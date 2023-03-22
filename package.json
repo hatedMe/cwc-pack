@@ -1,0 +1,16 @@
+{
+  "name": "cpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/index.js",
+    "build": "node-gyp rebuild"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-addon-api": "^6.0.0"
+  }
+}
